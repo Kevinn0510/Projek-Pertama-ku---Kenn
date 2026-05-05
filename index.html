@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <style>
+    body {
+  font-family: Arial;
+  background: linear-gradient(to right, #0f2027, #2c5364);
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+img{
+  width: 75px;
+  height: 75px;
+}
+.profil{
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+.card:hover{
+  box-shadow: 0 15px 20px white;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+button:hover{
+  box-shadow: 0 5px 5px black;
+}
+
+.btn button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  background: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.bar {
+  background: #ddd;
+  height: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.fill {
+  height: 8px;
+  background: green;
+  border-radius: 5px;
+}
+
+.w80 {
+  width: 80%;
+}
+
+.w70 {
+  width: 75%;
+}
+  </style>
+</head>
+<body>
+<div class="profil">
+  <h2>My Profile</h2>
+</div>
+<div class="container">
+
+  <div class="card profile">
+    <img src="IMG_20260421_112110.jpg" alt="Foto Profil">
+    <h3>Kevin Nugraha</h3>
+    <p>SMK An Nur</p>
+    <p>Depok</p>
+    <div class="btn">
+      <button>Follow</button>
+      <button>Message</button>
+    </div>
+  </div>
+
+  <!-- Data diri -->
+  <div class="card">
+    <h3>Data Diri</h3>
+    <p><b>Full Name: </b>Kevin Nugraha</p>
+    <p><b>Email: </b>example@gmail.com</p>
+    <p><b>Phone: </b>08123456789</p>
+    <p><b>Address: </b>Depok</p>
+  </div>
+
+  <!-- Social Media -->
+  <div class="card">
+    <h3>Social Media</h3>
+    <p>Website: example.com</p>
+    <p>Instagram: @just_kenn</p>
+  </div>
+
+  <!-- Project -->
+  <div class="card">
+    <h3>Project</h3>
+    <p>HTML</p>
+    <div class="bar"><div class="fill w80"></div></div>
+
+    <p>CSS</p>
+    <div class="bar"><div class="fill w70"></div></div>
+  </div>
+
+</div>
+
+</body>
+</html>
